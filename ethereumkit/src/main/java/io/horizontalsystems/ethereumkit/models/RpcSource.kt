@@ -14,19 +14,7 @@ sealed class RpcSource {
         fun binanceSmartChainHttp(): Http {
             return Http(
                     listOf(
-                            URI("https://bsc-dataseed.binance.org/"),
-                            URI("https://bsc-dataseed1.defibit.io/"),
-                            URI("https://bsc-dataseed1.ninicoin.io/"),
-                            URI("https://bsc-dataseed2.defibit.io/"),
-                            URI("https://bsc-dataseed3.defibit.io/"),
-                            URI("https://bsc-dataseed4.defibit.io/"),
-                            URI("https://bsc-dataseed2.ninicoin.io/"),
-                            URI("https://bsc-dataseed3.ninicoin.io/"),
-                            URI("https://bsc-dataseed4.ninicoin.io/"),
-                            URI("https://bsc-dataseed1.binance.org/"),
-                            URI("https://bsc-dataseed2.binance.org/"),
-                            URI("https://bsc-dataseed3.binance.org/"),
-                            URI("https://bsc-dataseed4.binance.org/")
+                        URI("https://data-seed-prebsc-1-s1.binance.org:8545/")
                     ),
                     null
             )
