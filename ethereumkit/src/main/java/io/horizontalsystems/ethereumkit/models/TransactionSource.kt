@@ -30,7 +30,7 @@ class TransactionSource(val name: String, val type: SourceType) {
         fun bscscan(apiKey: String): TransactionSource {
             return TransactionSource(
                 "bscscan.com",
-                SourceType.Etherscan("https://api.bscscan.com", "https://bscscan.com", apiKey)
+                SourceType.Etherscan("https://api-testnet.bscscan.com", "https://testnet.bscscan.com", apiKey)
             )
         }
 
